@@ -1,1 +1,1 @@
-Web scraper used to take the top 1000 celebrites info
+Just a repository of prototyped spiders to see their success rate.
