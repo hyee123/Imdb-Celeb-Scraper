@@ -31,7 +31,7 @@ class ImdbV1Spider(scrapy.Spider):
 
 
 	#actor page
-	def parse_level2(self, response):
+#	def parse_level2(self, response):
 				
 
 
