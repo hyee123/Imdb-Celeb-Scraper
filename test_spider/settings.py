@@ -89,7 +89,7 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-ROTATING_PROXY_LIST_PATH = '/Users/alicjagornicka/Test-Spider/test_spider/pr    oxies.txt'
+ROTATING_PROXY_LIST_PATH = '/Test-Spider/test_spider/proxies.txt'
 
   DOWNLOADER_MIDDLEWARES = {
       'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
