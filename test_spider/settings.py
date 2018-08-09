@@ -91,11 +91,11 @@ ROBOTSTXT_OBEY = True
 
 ROTATING_PROXY_LIST_PATH = '/Test-Spider/test_spider/proxies.txt'
 
-  DOWNLOADER_MIDDLEWARES = {
-      'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
-      'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
-      'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-     'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
+DOWNLOADER_MIDDLEWARES = {
+        'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+        'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
+        'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+        'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
 }
 
 RANDOM_UA_PER_PROXY = True
